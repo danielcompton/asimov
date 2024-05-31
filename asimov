@@ -61,6 +61,10 @@ readonly ASIMOV_VENDOR_DIR_SENTINELS=(
     'target pom.xml'                   # Maven
     'target build.sbt'                 # Sbt (Scala)
     'target plugins.sbt'               # Sbt plugins (Scala)
+    'target project.clj'               # Leiningen (Clojure)
+    'target deps.edn'                  # Clojure CLI
+    '.cpcache deps.edn'                # Clojure CLI
+    '.shadow-cljs shadow-cljs.edn'     # Shadow-CLJS (ClojureScript)
     'vendor composer.json'             # Composer (PHP)
     'vendor Gemfile'                   # Bundler (Ruby)
     'vendor go.mod'                    # Go Modules (Golang)
